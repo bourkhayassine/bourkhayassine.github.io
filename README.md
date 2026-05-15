@@ -15,7 +15,7 @@ L'objectif est d'offrir une interface claire pour me découvrir et me contacter.
 - **GitHub Pages** (Hébergement)
 
 ## 📸 Aperçu du projet
-![Capture d'écran du portfolio](./assets/preview.png)
+![Capture d'écran du portfolio](https://github.com/bourkhayassine/portfolio_bourkha_yassine/blob/1617a7effd319a0bdfc286c816c62acbefef1be0/Screenshot%202026-05-15%20015554.png)
 
 ## 🎨 Design (Figma)
 Vous pouvez consulter la maquette du projet ici : [Lien vers Figma](https://www.figma.com/design/h7cbAVHzYl8LXyVUjFFmOr/portfolio-V1?node-id=0-1&t=WnxZFNfJXksdteLL-1)
