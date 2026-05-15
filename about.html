@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>about</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#F2E9D8',
+            secondary: '#C9C9A5'
+          },
+          fontFamily: {
+            itim: ['Itim', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<script src="script.js"></script>
+<body class="bg-primary font-itim text-black min-h-screen flex flex-col">
+ <!-- ========== REUSABLE NAVBAR ========== -->
+  <header class="w-full px-6 md:px-14 py-6">
+    <nav class="flex flex-col md:flex-row justify-between items-center gap-4">
+      
+      <h1 class="text-lg md:text-xl tracking-wide text-center md:text-left">
+        the portfolio of <span class="uppercase">YASSINE BOURKHA</span>
+      </h1>
+
+      <ul class="flex flex-wrap justify-center gap-6 md:gap-12 text-base md:text-lg">
+        <li><a href="index.html" class="hover:underline">portfolio</a></li>
+        <li><a href="about.html" class="hover:underline">about</a></li>
+        <li><a href="projects.html" class="hover:underline">projects</a></li>
+        <li><a href="contact.html" class="hover:underline">contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+<main class="px-20 pt-10 pb-16">
+
+  <section class="grid grid-cols-2 gap-16 items-start">
+
+    <!-- LEFT -->
+    <div class="flex flex-col items-center">
+
+      <img src="pics\IMG-20250712-WA0070.JPG"
+           alt="photo"
+           class="w-[340px] h-[230px] object-cover">
+
+      <h2 class="text-[38px] mt-10">
+        yassine bourkha
+      </h2>
+
+      <div class="text-center mt-24 leading-relaxed">
+        <p class="text-[30px]">
+          Étudiant a la recherche d’un<br>
+          stage d’observation<br>
+          CV:
+        </p>
+
+        <a href="https://drive.google.com/file/d/1vIR6EJsSaksruevNCs9ppZqmtpy84s4W/view?usp=sharing"
+           download
+           class="inline-block mt-6 bg-red-600 px-8 py-2 text-[26px]">
+          Télécharger CV
+        </a>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="pt-10">
+      <p class="text-[34px] leading-[1.45] text-center">
+        Étudiant en Génie Informatique à l'EST, je suis passionné par
+        l'intersection entre la rigueur technique et la créativité visuelle.
+        Mon parcours m'a permis de développer des compétences solides en
+        développement Python, en gestion de bases de données SQL et en
+        administration de systèmes Linux,. Rigoureux et polyvalent, j'aime
+        transformer des problématiques complexes en solutions numériques fluides
+        et esthétiques. Au-delà de la technique, je m'implique activement dans
+        des projets associatifs et humanitaires, une expérience qui a renforcé
+        mon sens des responsabilités et mon esprit d'équipe. Je suis aujourd'hui
+        à la recherche d'opportunités pour mettre mon dynamisme et mes
+        compétences au service de projets innovants
+      </p>
+    </div>
+
+  </section>
+
+</main>
+  <!-- ========== REUSABLE FOOTER ========== -->
+  <footer class="mt-16 px-6 md:px-14 py-6">
+    <div class="border-t border-black/20 pt-4 text-center text-sm md:text-base">
+      © 2026 Yassine Bourkha — Portfolio
+    </div>
+  </footer>
+
+</body>
+</html>

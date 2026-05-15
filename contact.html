@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>about</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#F2E9D8',
+            secondary: '#C9C9A5'
+          },
+          fontFamily: {
+            itim: ['Itim', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<script src="script.js"></script>
+<body class="bg-primary font-itim text-black min-h-screen flex flex-col">
+ <!-- ========== REUSABLE NAVBAR ========== -->
+  <header class="w-full px-6 md:px-14 py-6">
+    <nav class="flex flex-col md:flex-row justify-between items-center gap-4">
+      
+      <h1 class="text-lg md:text-xl tracking-wide text-center md:text-left">
+        the portfolio of <span class="uppercase">YASSINE BOURKHA</span>
+      </h1>
+
+      <ul class="flex flex-wrap justify-center gap-6 md:gap-12 text-base md:text-lg">
+        <li><a href="index.html" class="hover:underline">portfolio</a></li>
+        <li><a href="about.html" class="hover:underline">about</a></li>
+        <li><a href="projects.html" class="hover:underline">projects</a></li>
+        <li><a href="contact.html" class="hover:underline">contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+
+    <main class="flex-grow flex flex-col items-center justify-center px-4 text-center">
+        <div class="max-w-3xl">
+            <p class="text-2xl leading-relaxed mb-10">
+                Un projet en tête, une question technique ou une opportunité de collaboration ? 
+                Que ce soit pour discuter de développement Python, d'architecture SQL ou de design sur Figma, 
+                je suis toujours ouvert à de nouveaux échanges. Actuellement à la recherche d'un stage 
+                pour mettre mes compétences en Génie Informatique au service de solutions innovantes, 
+                je vous répondrai avec plaisir. N'hésitez pas à me contacter par téléphone ou via 
+                WhatsApp ou directement par email
+            </p>
+
+            <div class="flex flex-col gap-4 text-xl">
+                <a href="mailto:bourkhayassine01@gmail.com" class="text-blue-700 hover:underline underline-offset-4">
+                    bourkhayassine01@gmail.com
+                </a>
+                <a href="tel:+212632102436" class="text-blue-700 hover:underline underline-offset-4">
+                    +212 632-102436
+                </a>
+            </div>
+        </div>
+    </main>
+
+  <!-- ========== REUSABLE FOOTER ========== -->
+  <footer class="mt-16 px-6 md:px-14 py-6">
+    <div class="border-t border-black/20 pt-4 text-center text-sm md:text-base">
+      © 2026 Yassine Bourkha — Portfolio
+    </div>
+  </footer>
+
+</body>
+</html>
